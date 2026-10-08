@@ -64,7 +64,7 @@ def test_valid_input(setup_teardown):
     driver = setup_teardown
     driver.get("http://127.0.0.1:5000/")
 
-    driver.find_element(By.NAME, "username").send_keys("Spandana")
+    driver.find_element(By.NAME, "username").send_keys("Spandanaaa")
     driver.find_element(By.NAME, "pwd").send_keys("abc123")
     driver.find_element(By.NAME, "sb").click()
 
